@@ -1792,7 +1792,7 @@ public class RendererConfiguration extends UPNPHelper.Renderer {
 	 * @return whether to include metadata.
 	 */
 	public boolean isPushMetadata() {
-		return getBoolean(PUSH_METADATA, true);
+		return getBoolean(PUSH_METADATA, false);
 	}
 
 	/**
